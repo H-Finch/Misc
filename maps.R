@@ -16,3 +16,8 @@ mp=mp+geom_point(aes(x=Long, y=Lat),color="red", size=Sum.of.MisuseAmt)+
 
 mp
 
+
+mp=mp+geom_point(aes(x=Long, y=Lat),color="red", size=3)+
+  geom_label(aes(label=Label,x=Long,y=Lat,fill = factor(Country)),
+             color="white",angle=45,hjust = 0, nudge_x = 0.05)+theme(legend.position="none")
+mp
