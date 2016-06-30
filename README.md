@@ -1,3 +1,3 @@
 # Misc
 
-Coding oddities 
+Coding oddities, resources all and sundry, snacks for thought. 
